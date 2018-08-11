@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ITEMTYPE" directorySegmentName="seg_0" id="B8E822B2-5CBD-4736-394A-C4368B49DC71">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<schemaObject>C5B0565C-C61B-4B13-1959-C309045D96B6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E0D683F1-FD39-FB68-EE5A-2996B81D8AD6</segment>
+<tableSpace>CFDEFE94-150E-2ED6-4251-2DBB89A5E4DE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ITEM_TYPE_ID" id="25BEF322-30DC-9704-F01E-15D8A57DA0C7">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TYPE_NAME" id="C45E28A3-1797-B785-12FE-B185DADD8BB3">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_ITEMTYPE" id="B040B451-29CA-ECBE-0C87-98EFC156E781">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:29 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<schemaObject>C5B0565C-C61B-4B13-1959-C309045D96B6</schemaObject>
+<segment>7C009A71-4E5F-0838-030D-5062F22F3692</segment>
+<tableSpace>CFDEFE94-150E-2ED6-4251-2DBB89A5E4DE</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_ITEMTYPE" id="D9FABBA7-30FE-E507-7FD4-84B8E0DB8A2F">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:29 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<segment>7C009A71-4E5F-0838-030D-5062F22F3692</segment>
+<tableSpace>CFDEFE94-150E-2ED6-4251-2DBB89A5E4DE</tableSpace>
+<existingIndex>B040B451-29CA-ECBE-0C87-98EFC156E781</existingIndex>
+<indexSegment>7C009A71-4E5F-0838-030D-5062F22F3692</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

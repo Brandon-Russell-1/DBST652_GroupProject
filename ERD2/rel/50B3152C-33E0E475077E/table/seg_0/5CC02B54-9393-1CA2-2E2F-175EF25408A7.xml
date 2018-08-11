@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CC02B54-9393-1CA2-2E2F-175EF25408A7" schemaObject="624A3548-D1B7-6C36-FB99-06920EF5E511" name="SHIPMENT">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>SHIPMENT</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SHIPMENT_ID" id="93D43ADC-6DCE-71EA-BE2A-34898BF4EA55">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>SHIPMENT</sourceObjSchema>
+<sourceObjName>SHIPMENT_ID</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_RECEIVED" id="51B9E89C-3565-694F-CEA0-0399107E7D01">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>SHIPMENT</sourceObjSchema>
+<sourceObjName>DATE_RECEIVED</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15F368C0-4ABC-49F2-489C-A9B52FD151B5" name="PK_SHIPMENT">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>PK_SHIPMENT</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93D43ADC-6DCE-71EA-BE2A-34898BF4EA55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21A6C952-2CED-C1B8-4C3D-6BA7AA645357" schemaObject="624A3548-D1B7-6C36-FB99-06920EF5E511" name="PK_SHIPMENT">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>PK_SHIPMENT</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93D43ADC-6DCE-71EA-BE2A-34898BF4EA55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

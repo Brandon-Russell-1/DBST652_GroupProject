@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4D82D50-7EAE-F513-BB7B-9B92298A0B45" schemaObject="C5B0565C-C61B-4B13-1959-C309045D96B6" name="CUSTOMER">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>CUSTOMER</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMER_ID" id="78D6E0A3-AA20-9C00-04A1-5E1FAD462F3E">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_ID</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_FNAME" id="0BC8952E-A8BF-198B-F98F-8030082DD535">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUST_FNAME</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_LNAME" id="E5875612-3F7A-68C9-270B-4C9D68A84D61">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUST_LNAME</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_ADDRESS" id="F1AA1427-1AB5-C900-AFB8-6234F5CC1050">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUST_ADDRESS</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_ZIPCODE" id="12E65562-0E47-49A8-E03D-E4D14AE9F380">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUST_ZIPCODE</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_PHONENUM" id="BFB1E156-0B2F-E27B-0760-28A219F03063">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUST_PHONENUM</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_EMAIL" id="FCF16BD6-58B4-5733-5BD7-D01B89C6D94F">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUST_EMAIL</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C247B5D7-E0A7-BED1-73AE-F3F24B21E29E" name="PK_CUSTOMER">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>PK_CUSTOMER</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:29 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78D6E0A3-AA20-9C00-04A1-5E1FAD462F3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F6BB057-4DF3-E5C6-5460-0CFAFDEA2D4E" schemaObject="C5B0565C-C61B-4B13-1959-C309045D96B6" name="PK_CUSTOMER">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>PK_CUSTOMER</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78D6E0A3-AA20-9C00-04A1-5E1FAD462F3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

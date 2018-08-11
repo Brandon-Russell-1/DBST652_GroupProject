@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ORDERDETAILS" directorySegmentName="seg_0" id="D398FB4E-C533-61BB-B8C5-2414F43653C1">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<schemaObject>624A3548-D1B7-6C36-FB99-06920EF5E511</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D985E6D7-987C-E178-3DCE-E2D042A0376C</segment>
+<tableSpace>F3CB16AB-AFFB-FD70-73BE-4CD846C3959C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ITEM_ID" id="1A6634C9-2C6D-2019-E039-281CF146F33D">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHIPMENT_DETAILS_ID" id="429E58E7-D5D5-BA60-1709-41A2F314E39B">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_DETAILS_QTY" id="4BAEC018-1B1B-6C0F-064F-EF073FDB0DC3">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMER_ORDER_ID" id="78A49235-A075-8D04-267F-227FEB81FC6A">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_DETAILS_ID" id="9510CAD1-8365-07C0-7A65-683CF3AE8AC1">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DISCOUNT" id="C98B98DD-6C2E-91FA-9EDE-A43E826595BD">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="FK_CUSTOMERORDER" id="0595AAAA-3119-028E-C309-0BEA0036A439">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<schemaObject>624A3548-D1B7-6C36-FB99-06920EF5E511</schemaObject>
+<segment>E5B32A73-2C7F-99B1-9B21-DC5CF44A9328</segment>
+<tableSpace>F3CB16AB-AFFB-FD70-73BE-4CD846C3959C</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_ORDERDETAILS" id="3B3AC1C7-A506-9945-2DA8-42894C0D9A3F">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<schemaObject>624A3548-D1B7-6C36-FB99-06920EF5E511</schemaObject>
+<segment>E5B32A73-2C7F-99B1-9B21-DC5CF44A9328</segment>
+<tableSpace>F3CB16AB-AFFB-FD70-73BE-4CD846C3959C</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="FK_ORDERITEM" id="AB5BB2F0-6FB8-55DD-C5BC-91751D474DF2">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<schemaObject>624A3548-D1B7-6C36-FB99-06920EF5E511</schemaObject>
+<segment>E5B32A73-2C7F-99B1-9B21-DC5CF44A9328</segment>
+<tableSpace>F3CB16AB-AFFB-FD70-73BE-4CD846C3959C</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="FK_SHIPMENT_DETAILS_ID" id="FC2C7BED-A8B7-5E32-8531-E1863A74DC2A">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<schemaObject>624A3548-D1B7-6C36-FB99-06920EF5E511</schemaObject>
+<segment>E5B32A73-2C7F-99B1-9B21-DC5CF44A9328</segment>
+<tableSpace>F3CB16AB-AFFB-FD70-73BE-4CD846C3959C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SHIPMENT_DETAILS_ID" id="780147B2-B783-9D50-74B0-081E9B8BF269">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:29 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ORDERITEM" id="E020816F-6115-F7CE-2F6C-E2743B5CD72C">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:29 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CUSTOMERORDER" id="FF902AAA-A3C7-CC0B-EEB0-C9115F4CE6AF">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:29 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_ORDERDETAILS" id="DD455D5E-662C-2D7F-54F6-19434BE370B7">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<segment>E5B32A73-2C7F-99B1-9B21-DC5CF44A9328</segment>
+<tableSpace>F3CB16AB-AFFB-FD70-73BE-4CD846C3959C</tableSpace>
+<existingIndex>3B3AC1C7-A506-9945-2DA8-42894C0D9A3F</existingIndex>
+<indexSegment>E5B32A73-2C7F-99B1-9B21-DC5CF44A9328</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

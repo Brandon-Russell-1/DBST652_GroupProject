@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="TSpace" objectID="CFDEFE94-150E-2ED6-4251-2DBB89A5E4DE" name="USERS" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="User" objectID="50DC04B8-BD5C-FB9D-EE37-F6EA844D557B" name="RBRANDON87" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="1BF74BA2-5F72-423A-AF38-53CF95751DC0" name="CUSTOMERORDER" seqName="seg_0"/>
+   <object objectType="Table" objectID="4633C3D5-EF93-E1CA-6371-ED669C7EBAD8" name="SHIPMENT" seqName="seg_0"/>
+   <object objectType="Table" objectID="82439303-4B12-18CB-187A-052C05057085" name="ITEM" seqName="seg_0"/>
+   <object objectType="Table" objectID="9C2A85F9-1D56-F22D-1654-8A6FAB1E0D7F" name="ORDERDETAILS" seqName="seg_0"/>
+   <object objectType="Table" objectID="A4D82D50-7EAE-F513-BB7B-9B92298A0B45" name="CUSTOMER" seqName="seg_0"/>
+   <object objectType="Table" objectID="B8E822B2-5CBD-4736-394A-C4368B49DC71" name="ITEMTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="E9B6A1F6-0990-8ABC-75A7-DA6893793A89" name="SHIPMENTDETAILS" seqName="seg_0"/>
+   <object objectType="Segment" objectID="E0D683F1-FD39-FB68-EE5A-2996B81D8AD6" name="Storage1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="7C009A71-4E5F-0838-030D-5062F22F3692" name="Storage8" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="FB6E7CA3-CC19-B2EB-0414-A5FDF24DF532" name="UPDATEITEMQTY_TRIGGER" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

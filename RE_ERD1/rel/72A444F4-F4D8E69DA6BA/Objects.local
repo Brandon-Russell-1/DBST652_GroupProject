@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="C5B0565C-C61B-4B13-1959-C309045D96B6" name="RBRANDON87" seqName="seg_0"/>
+   <object objectType="Table" objectID="1BF74BA2-5F72-423A-AF38-53CF95751DC0" name="CUSTOMERORDER" seqName="seg_0"/>
+   <object objectType="Table" objectID="4633C3D5-EF93-E1CA-6371-ED669C7EBAD8" name="SHIPMENT" seqName="seg_0"/>
+   <object objectType="Table" objectID="82439303-4B12-18CB-187A-052C05057085" name="ITEM" seqName="seg_0"/>
+   <object objectType="Table" objectID="9C2A85F9-1D56-F22D-1654-8A6FAB1E0D7F" name="ORDERDETAILS" seqName="seg_0"/>
+   <object objectType="Table" objectID="A4D82D50-7EAE-F513-BB7B-9B92298A0B45" name="CUSTOMER" seqName="seg_0"/>
+   <object objectType="Table" objectID="B8E822B2-5CBD-4736-394A-C4368B49DC71" name="ITEMTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="E9B6A1F6-0990-8ABC-75A7-DA6893793A89" name="SHIPMENTDETAILS" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="00E7FD72-68CB-CAD4-92E1-4771ADD0DFE6" name="FK_SHIPMENTITEM" containerID="E9B6A1F6-0990-8ABC-75A7-DA6893793A89" refContainerID="82439303-4B12-18CB-187A-052C05057085" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="269F00ED-7A0D-211E-8334-D2C7B5C7231B" name="FK_CUSTOMERORDER" containerID="9C2A85F9-1D56-F22D-1654-8A6FAB1E0D7F" refContainerID="1BF74BA2-5F72-423A-AF38-53CF95751DC0" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="886089FF-D66F-8B85-5DC9-EC0A74625D4C" name="FK_CUSTOMER" containerID="1BF74BA2-5F72-423A-AF38-53CF95751DC0" refContainerID="A4D82D50-7EAE-F513-BB7B-9B92298A0B45" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A887EC3E-86A3-093D-AB19-1426275E7F5B" name="FK_ITEMTYPE" containerID="82439303-4B12-18CB-187A-052C05057085" refContainerID="B8E822B2-5CBD-4736-394A-C4368B49DC71" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C6513A72-9A02-9078-67B2-29F45B79CD80" name="FK_SHIPMENT" containerID="E9B6A1F6-0990-8ABC-75A7-DA6893793A89" refContainerID="4633C3D5-EF93-E1CA-6371-ED669C7EBAD8" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F113556E-67F2-72BB-7B3B-6C42C5AC8894" name="FK_ORDERITEM" containerID="9C2A85F9-1D56-F22D-1654-8A6FAB1E0D7F" refContainerID="82439303-4B12-18CB-187A-052C05057085" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

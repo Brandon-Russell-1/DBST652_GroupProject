@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CUSTOMERORDER" directorySegmentName="seg_0" id="1BF74BA2-5F72-423A-AF38-53CF95751DC0">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<schemaObject>C5B0565C-C61B-4B13-1959-C309045D96B6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E0D683F1-FD39-FB68-EE5A-2996B81D8AD6</segment>
+<tableSpace>CFDEFE94-150E-2ED6-4251-2DBB89A5E4DE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CUSTOMER_ID" id="171CC176-CB67-41A9-31B9-D78B551B514A">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_DATE" id="497FA683-FF61-3874-2280-01758E489F8B">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMER_ORDER_ID" id="BDF30A7B-72AD-36E9-969D-3DE05AAFFFD6">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_CUSTOMERORDER" id="453ED099-D1BA-E9A3-2441-19192305621A">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:29 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<schemaObject>C5B0565C-C61B-4B13-1959-C309045D96B6</schemaObject>
+<segment>7C009A71-4E5F-0838-030D-5062F22F3692</segment>
+<tableSpace>CFDEFE94-150E-2ED6-4251-2DBB89A5E4DE</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="FK_CUSTOMER" id="5746E72F-7DA1-8FEB-8152-00CFFCE20FAA">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:29 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<schemaObject>C5B0565C-C61B-4B13-1959-C309045D96B6</schemaObject>
+<segment>7C009A71-4E5F-0838-030D-5062F22F3692</segment>
+<tableSpace>CFDEFE94-150E-2ED6-4251-2DBB89A5E4DE</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CUSTOMER" id="7EC9C2FA-32E5-C961-8C41-F3E2F18F9930">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:30 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CUSTOMERORDER" id="0356F671-EA4C-D957-BA7D-4F325CAD13F3">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:29 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<segment>7C009A71-4E5F-0838-030D-5062F22F3692</segment>
+<tableSpace>CFDEFE94-150E-2ED6-4251-2DBB89A5E4DE</tableSpace>
+<existingIndex>453ED099-D1BA-E9A3-2441-19192305621A</existingIndex>
+<indexSegment>7C009A71-4E5F-0838-030D-5062F22F3692</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

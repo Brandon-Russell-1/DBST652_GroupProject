@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="UPDATEITEMQTY_TRIGGER" directorySegmentName="seg_0" id="FB6E7CA3-CC19-B2EB-0414-A5FDF24DF532">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>UPDATEITEMQTY_TRIGGER</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:29 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;      UPDATE Item&lt;br/&gt;        SET Total_Qty = Total_Qty-1&lt;br/&gt;        WHERE Item_ID = Item.Item_ID;&lt;br/&gt;      dbms_output.put_line (&apos;Qty - 1!!&apos;);&lt;br/&gt;    END;</body>
+<triggerTime>AFTER</triggerTime>
+<owner>50DC04B8-BD5C-FB9D-EE37-F6EA844D557B</owner>
+<table>9C2A85F9-1D56-F22D-1654-8A6FAB1E0D7F</table>
+</TriggerOraclev10g>

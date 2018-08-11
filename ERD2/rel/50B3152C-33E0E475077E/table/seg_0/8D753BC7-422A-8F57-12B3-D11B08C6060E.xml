@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D753BC7-422A-8F57-12B3-D11B08C6060E" schemaObject="624A3548-D1B7-6C36-FB99-06920EF5E511" name="CUSTOMER">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>CUSTOMER</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:27 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMER_ID" id="061C7EDE-8F00-CA78-3FE2-25C485A2DF43">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTOMER_ID</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_FNAME" id="C902C31B-A490-4019-EC47-DD24D011BA4C">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUST_FNAME</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_LNAME" id="343D1078-7A8A-DEC2-D7D0-ADABC7384628">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUST_LNAME</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_ADDRESS" id="C391AC3E-1869-B091-DE48-150801F1038B">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUST_ADDRESS</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_ZIPCODE" id="1C829307-B02D-CC12-6043-61F198D866AB">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUST_ZIPCODE</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_PHONENUM" id="16369933-BC13-DED4-5511-A2DB896A4185">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUST_PHONENUM</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_EMAIL" id="C73EEC18-58DA-9EC5-D1E8-4B3444F9602B">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUST_EMAIL</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83713030-8CAE-31CF-9867-CD5A625DCF6F" name="PK_CUSTOMER">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>PK_CUSTOMER</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="061C7EDE-8F00-CA78-3FE2-25C485A2DF43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1348E674-C8B2-0701-F8FB-39B6C7049637" schemaObject="624A3548-D1B7-6C36-FB99-06920EF5E511" name="PK_CUSTOMER">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>PK_CUSTOMER</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="061C7EDE-8F00-CA78-3FE2-25C485A2DF43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

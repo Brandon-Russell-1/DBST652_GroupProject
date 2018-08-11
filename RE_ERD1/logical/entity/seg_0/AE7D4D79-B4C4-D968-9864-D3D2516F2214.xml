@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE7D4D79-B4C4-D968-9864-D3D2516F2214" name="CUSTOMERORDER">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:15:13 UTC</createdTime>
+<generatorID>1BF74BA2-5F72-423A-AF38-53CF95751DC0</generatorID>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<engineerTo>
+<item key="72A444F4-0784-DAE2-D044-F4D8E69DA6BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CUSTOMER ORDER ID" id="F355F2F8-911E-F08B-C629-61782D30370B">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:15:13 UTC</createdTime>
+<generatorID>BDF30A7B-72AD-36E9-969D-3DE05AAFFFD6</generatorID>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<engineerTo>
+<item key="72A444F4-0784-DAE2-D044-F4D8E69DA6BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDER DATE" id="DB41466D-6CD9-A8D9-06C2-5DEF3F8DC709">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:15:13 UTC</createdTime>
+<generatorID>497FA683-FF61-3874-2280-01758E489F8B</generatorID>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<engineerTo>
+<item key="72A444F4-0784-DAE2-D044-F4D8E69DA6BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUSTOMER ID" id="675EB761-F960-AFF3-66D7-697BA88A9015">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:15:13 UTC</createdTime>
+<generatorID>DD557F8A-E4B0-0D35-710E-EABF3C370453</generatorID>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<engineerTo>
+<item key="72A444F4-0784-DAE2-D044-F4D8E69DA6BA" value="true"/>
+</engineerTo>
+<referedAttribute>DBE60060-109C-9143-D203-A765AA51D365</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8ACB7B87-418A-BB49-5309-F74B44F4EF22" name="PK CUSTOMERORDER">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:15:13 UTC</createdTime>
+<generatorID>0356F671-EA4C-D957-BA7D-4F325CAD13F3</generatorID>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<engineerTo>
+<item key="72A444F4-0784-DAE2-D044-F4D8E69DA6BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F355F2F8-911E-F08B-C629-61782D30370B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

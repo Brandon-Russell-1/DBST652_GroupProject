@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C3670CF-8E74-BE82-0A1E-3EC20A46BC24" schemaObject="624A3548-D1B7-6C36-FB99-06920EF5E511" name="ITEMTYPE">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>ITEMTYPE</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ITEM_TYPE_ID" id="1B4A9A44-1F3B-C3FC-FCBA-D8AB810F24EF">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>ITEMTYPE</sourceObjSchema>
+<sourceObjName>ITEM_TYPE_ID</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_NAME" id="3DE9404D-3D97-343F-40D2-3B69FB203F44">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>ITEMTYPE</sourceObjSchema>
+<sourceObjName>TYPE_NAME</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9413572-C95A-B5E5-EDD4-AB92DA2536C5" name="PK_ITEMTYPE">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>PK_ITEMTYPE</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B4A9A44-1F3B-C3FC-FCBA-D8AB810F24EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46BC9F33-FDAB-F702-6999-8771276A0D43" schemaObject="624A3548-D1B7-6C36-FB99-06920EF5E511" name="PK_ITEMTYPE">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>PK_ITEMTYPE</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B4A9A44-1F3B-C3FC-FCBA-D8AB810F24EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

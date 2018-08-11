@@ -1,0 +1,83 @@
+Function Queries
+
+Chapter 4
+
+This query uses concatenation to connect two strings together to become one. This produces a result of a single column.
+
+Without comma seperation
+
+Select CONCAT (c.cust_address, c.cust_zipcode)
+from customer c
+
+Results
+123 ABC Street31088
+45 Alberta Lane 31771
+123 Finegand Place 31771
+46 Alberta Lane 31771
+47 Alberta Lane 31771
+48 Alberta Lane 31771
+49 Alberta Lane 31771
+50 Alberta Lane 31771
+51 Alberta Lane 31771
+52 Alberta Lane 31771
+
+With comma separation
+
+Select C.CUST_ADDRESS||','|| C.CUST_ZIPCODE
+FROM CUSTOMER C
+
+Results
+123 ABC Street,31088
+45 Alberta Lane ,31771
+123 Finegand Place ,31771
+46 Alberta Lane ,31771
+47 Alberta Lane ,31771
+48 Alberta Lane ,31771
+49 Alberta Lane ,31771
+50 Alberta Lane ,31771
+51 Alberta Lane ,31771
+52 Alberta Lane ,31771
+
+Chapter 5
+
+The query below concatenates the name and reformats the date from "DD-MON-YY" to "MM/DD/YYYY"
+
+SELECT C.CUST_LNAME||','||C.CUST_FNAME,TO_CHAR(O.ORDER_DATE, 'MM/DD/YYYY') 
+FROM CUSTOMER C INNER JOIN CUSTOMERORDER O ON C.CUSTOMER_ID = O.CUSTOMER_ID;
+
+Results before formatting
+
+Roberts,Bob	12-FEB-16
+Jane,Mary	15-FEB-16
+Russell,Brandon	16-FEB-16
+Doe,James	15-JAN-16
+Bob,Jim		10-JAN-16
+Russell,Patrici01-FEB-16
+Johnson,Jane	03-DEC-15
+Yi,Hyon		20-NOV-15
+Jordan,Keith	22-OCT-15
+Smith,Pete	23-FEB-16
+
+Results after formatting
+
+Roberts,Bob	02/12/2016
+Jane,Mary	02/15/2016
+Russell,Brandon	02/16/2016
+Doe,James	01/15/2016
+Bob,Jim		01/10/2016
+Russell,Patricia02/01/2016
+Johnson,Jane	12/03/2015
+Yi,Hyon		11/20/2015
+Jordan,Keith	10/22/2015
+Smith,Pete	02/23/2016
+
+Chapter 6 
+
+The query below compiles the average cost of all items sold and the average discount that was received from the purchases within a date range.
+
+
+SELECT AVG(T.ITEM_COST),AVG(D.DISCOUNT)
+FROM CUSTOMERORDER O INNER JOIN ORDERDETAILS D 
+  ON O.CUSTOMER_ORDER_ID = D.CUSTOMER_ORDER_ID 
+  INNER JOIN ITEM T ON D.ITEM_ID = T.ITEM_ID
+WHERE O.ORDER_DATE BETWEEN '15-JAN-10' AND '17-JAN-17'

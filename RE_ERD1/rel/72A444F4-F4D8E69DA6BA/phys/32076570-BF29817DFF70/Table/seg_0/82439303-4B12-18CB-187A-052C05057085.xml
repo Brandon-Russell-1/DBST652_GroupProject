@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ITEM" directorySegmentName="seg_0" id="82439303-4B12-18CB-187A-052C05057085">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<schemaObject>C5B0565C-C61B-4B13-1959-C309045D96B6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E0D683F1-FD39-FB68-EE5A-2996B81D8AD6</segment>
+<tableSpace>CFDEFE94-150E-2ED6-4251-2DBB89A5E4DE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ITEM_TYPE_ID" id="088E48EA-7EC4-9D6B-7C66-44A3D49A4F53">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REORDER_QTY" id="10373C9B-E7AF-6153-5F5D-610D170EBECF">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SPEC_DOCUMENTS" id="460ABFC9-C38F-78D2-DDEF-0DA26D2FA37B">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ITEM_COST" id="60CA4684-B46E-76DC-D9E4-A3C6535116A2">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TOTAL_QTY" id="7DDDD535-EAF2-6434-5B21-955033C0DB1E">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ITEM_NAME" id="815E6213-9847-68F7-C4E9-BC260F9DE430">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ITEM_LISTPRICE" id="9FE1567D-66D3-62DD-2F48-CBE9E68C575F">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ITEM_ID" id="CB111774-2E91-9D85-F26D-789735A13243">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="FK_ITEMTYPE" id="78F28C5A-9E0D-A51C-9151-3F74B1C94183">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:29 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<schemaObject>C5B0565C-C61B-4B13-1959-C309045D96B6</schemaObject>
+<segment>7C009A71-4E5F-0838-030D-5062F22F3692</segment>
+<tableSpace>CFDEFE94-150E-2ED6-4251-2DBB89A5E4DE</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_ITEM" id="BA248087-AEF3-DF35-909D-DC84BD65A4A8">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:29 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<schemaObject>C5B0565C-C61B-4B13-1959-C309045D96B6</schemaObject>
+<segment>7C009A71-4E5F-0838-030D-5062F22F3692</segment>
+<tableSpace>CFDEFE94-150E-2ED6-4251-2DBB89A5E4DE</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ITEMTYPE" id="707DEC9C-B2C9-8940-F7EF-6385AE58321E">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:30 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000027506C00006$$" id="69DAA9A5-E6F6-015F-415F-8B76B62C03B7">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:29 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>SPEC_DOCUMENTS</column>
+<logging>YES</logging>
+<tableSpace>CFDEFE94-150E-2ED6-4251-2DBB89A5E4DE</tableSpace>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_ITEM" id="6D647E27-E7DD-EB10-90AE-E66FF3C82E0E">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:29 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<segment>7C009A71-4E5F-0838-030D-5062F22F3692</segment>
+<tableSpace>CFDEFE94-150E-2ED6-4251-2DBB89A5E4DE</tableSpace>
+<existingIndex>BA248087-AEF3-DF35-909D-DC84BD65A4A8</existingIndex>
+<indexSegment>7C009A71-4E5F-0838-030D-5062F22F3692</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="UPDATEITEMQTY_TRIGGER" directorySegmentName="seg_0" id="C7AA4A31-1C5F-BAAC-0B53-72E561FD4AD3">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>UPDATEITEMQTY_TRIGGER</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;        UPDATE Item&lt;br/&gt;        SET Total_Qty = Total_Qty - :New.Order_Details_Qty&lt;br/&gt;        WHERE Item_ID = :New.Item_ID;&lt;br/&gt;        &lt;br/&gt;        UPDATE ShipmentDetails&lt;br/&gt;        SET Shipment_Qty = Shipment_Qty - :New.Order_Details_Qty&lt;br/&gt;        WHERE Shipment_Details_ID = :New.Shipment_Details_ID;&lt;br/&gt;      dbms_output.put_line (&apos;Customer Order Quantity deducted!!!&apos;);&lt;br/&gt;    END;</body>
+<triggerTime>AFTER</triggerTime>
+<owner>7F48A90D-4906-7B84-D266-F70C62856E00</owner>
+<table>D398FB4E-C533-61BB-B8C5-2414F43653C1</table>
+</TriggerOraclev10g>

@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C2A85F9-1D56-F22D-1654-8A6FAB1E0D7F" schemaObject="C5B0565C-C61B-4B13-1959-C309045D96B6" name="ORDERDETAILS">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>ORDERDETAILS</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_DETAILS_ID" id="9D3726DB-DFEE-E0AC-C45E-FB49A3075176">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>ORDERDETAILS</sourceObjSchema>
+<sourceObjName>ORDER_DETAILS_ID</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_DEATILS_QTY" id="5BE6C5E1-058C-66BB-BD38-EF15BC3A0E6D">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>ORDERDETAILS</sourceObjSchema>
+<sourceObjName>ORDER_DEATILS_QTY</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISCOUNT" id="CB5C5831-25D3-0813-2911-C0D73DFFF042">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>ORDERDETAILS</sourceObjSchema>
+<sourceObjName>DISCOUNT</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ITEM_ID" id="AC7EAEB4-0817-C455-9DB1-44F5A90EA6B1">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>ORDERDETAILS</sourceObjSchema>
+<sourceObjName>ITEM_ID</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F113556E-67F2-72BB-7B3B-6C42C5AC8894" referredColumn="CB111774-2E91-9D85-F26D-789735A13243"/>
+</associations>
+</Column>
+<Column name="CUSTOMER_ORDER_ID" id="AAE18404-6EE2-7D2A-644F-BC738D72904B">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>ORDERDETAILS</sourceObjSchema>
+<sourceObjName>CUSTOMER_ORDER_ID</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:28 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="269F00ED-7A0D-211E-8334-D2C7B5C7231B" referredColumn="BDF30A7B-72AD-36E9-969D-3DE05AAFFFD6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90341E37-7118-4EFD-7B01-44A069846562" name="PK_ORDERDETAILS">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>PK_ORDERDETAILS</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:29 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D3726DB-DFEE-E0AC-C45E-FB49A3075176"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC6862E5-61BE-E218-AC2E-34BA97DABCAF" schemaObject="C5B0565C-C61B-4B13-1959-C309045D96B6" name="PK_ORDERDETAILS">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>PK_ORDERDETAILS</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:29 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D3726DB-DFEE-E0AC-C45E-FB49A3075176"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3007B7CE-2B25-C7E5-830E-3D5E716CDADA" schemaObject="C5B0565C-C61B-4B13-1959-C309045D96B6" name="FK_CUSTOMERORDER">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>FK_CUSTOMERORDER</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:29 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAE18404-6EE2-7D2A-644F-BC738D72904B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F4BF322-6429-33AB-59FC-5EE86F345470" schemaObject="C5B0565C-C61B-4B13-1959-C309045D96B6" name="FK_ORDERITEM">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>FK_ORDERITEM</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:29 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC7EAEB4-0817-C455-9DB1-44F5A90EA6B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="254EBAF1-87D7-9372-31F8-B4CE3D76307F" name="FK_CUSTOMERORDER">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:30 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAE18404-6EE2-7D2A-644F-BC738D72904B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD8F2B4B-B42E-37D6-A5BF-FAF2A7D3F398" name="FK_ORDERITEM">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:14:30 UTC</createdTime>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC7EAEB4-0817-C455-9DB1-44F5A90EA6B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="057E5779-549D-85BF-72F6-26F89B6656A9" name="ITEMTYPE" seqName="seg_0"/>
+   <object objectType="Entity" objectID="66C07480-E63C-C9A0-E60C-ABB6D9172E60" name="SHIPMENTDETAILS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="88376F62-74F3-E6F0-F23C-5D5001F07459" name="ITEM" seqName="seg_0"/>
+   <object objectType="Entity" objectID="892E02A3-538D-1281-5E11-719DC856F724" name="SHIPMENT" seqName="seg_0"/>
+   <object objectType="Entity" objectID="AE7D4D79-B4C4-D968-9864-D3D2516F2214" name="CUSTOMERORDER" seqName="seg_0"/>
+   <object objectType="Entity" objectID="DFB40606-2A81-1E0B-07A6-39F76C4F594A" name="CUSTOMER" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E5F0AC4C-B75B-8F5E-1A34-84D06C7487E5" name="ORDERDETAILS" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9AECCB0C-C333-F1E5-8DE4-27A516861A42" name="FK_ITEMTYPE" seqName="seg_0"/>
+   <object objectType="Relation" objectID="9B385849-7320-0198-EF5C-AB30ED632BE7" name="FK_SHIPMENTITEM" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C4E2D768-5EBF-9FAC-DD5A-B854BACF66F8" name="FK_CUSTOMERORDER" seqName="seg_0"/>
+   <object objectType="Relation" objectID="D004AE86-954E-7EB8-E0B2-ACCF8BD6A81E" name="FK_SHIPMENT" seqName="seg_0"/>
+   <object objectType="Relation" objectID="DD557F8A-E4B0-0D35-710E-EABF3C370453" name="FK_CUSTOMER" seqName="seg_0"/>
+   <object objectType="Relation" objectID="EBEC1A92-68FB-4446-44FA-DC810A993384" name="FK_ORDERITEM" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

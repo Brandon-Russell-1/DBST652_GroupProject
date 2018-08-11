@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_ORDERITEM" directorySegmentName="seg_0" id="EBEC1A92-68FB-4446-44FA-DC810A993384">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-15 15:15:13 UTC</createdTime>
+<generatorID>F113556E-67F2-72BB-7B3B-6C42C5AC8894</generatorID>
+<ownerDesignName>RE_ERD1</ownerDesignName>
+<engineerTo>
+<item key="72A444F4-0784-DAE2-D044-F4D8E69DA6BA" value="true"/>
+</engineerTo>
+<sourcePk>9679770B-D0A7-B03A-3EAD-6A52D0F4A537</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>88376F62-74F3-E6F0-F23C-5D5001F07459</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E5F0AC4C-B75B-8F5E-1A34-84D06C7487E5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

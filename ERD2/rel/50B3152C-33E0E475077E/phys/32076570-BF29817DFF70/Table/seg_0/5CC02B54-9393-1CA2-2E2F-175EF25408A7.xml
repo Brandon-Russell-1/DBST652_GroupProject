@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SHIPMENT" directorySegmentName="seg_0" id="5CC02B54-9393-1CA2-2E2F-175EF25408A7">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<schemaObject>624A3548-D1B7-6C36-FB99-06920EF5E511</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D985E6D7-987C-E178-3DCE-E2D042A0376C</segment>
+<tableSpace>F3CB16AB-AFFB-FD70-73BE-4CD846C3959C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DATE_RECEIVED" id="51B9E89C-3565-694F-CEA0-0399107E7D01">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHIPMENT_ID" id="93D43ADC-6DCE-71EA-BE2A-34898BF4EA55">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_SHIPMENT" id="21A6C952-2CED-C1B8-4C3D-6BA7AA645357">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<schemaObject>624A3548-D1B7-6C36-FB99-06920EF5E511</schemaObject>
+<segment>E5B32A73-2C7F-99B1-9B21-DC5CF44A9328</segment>
+<tableSpace>F3CB16AB-AFFB-FD70-73BE-4CD846C3959C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_SHIPMENT" id="15F368C0-4ABC-49F2-489C-A9B52FD151B5">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<segment>E5B32A73-2C7F-99B1-9B21-DC5CF44A9328</segment>
+<tableSpace>F3CB16AB-AFFB-FD70-73BE-4CD846C3959C</tableSpace>
+<existingIndex>21A6C952-2CED-C1B8-4C3D-6BA7AA645357</existingIndex>
+<indexSegment>E5B32A73-2C7F-99B1-9B21-DC5CF44A9328</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

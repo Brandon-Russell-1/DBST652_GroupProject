@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="RBRANDON87" directorySegmentName="seg_0" id="7F48A90D-4906-7B84-D266-F70C62856E00">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjName>RBRANDON87</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:27 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<schemaObject>624A3548-D1B7-6C36-FB99-06920EF5E511</schemaObject>
+</UserOraclev10g>

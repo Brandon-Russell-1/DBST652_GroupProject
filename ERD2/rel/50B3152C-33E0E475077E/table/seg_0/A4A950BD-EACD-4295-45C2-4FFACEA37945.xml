@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4A950BD-EACD-4295-45C2-4FFACEA37945" schemaObject="624A3548-D1B7-6C36-FB99-06920EF5E511" name="ITEM">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>ITEM</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ITEM_ID" id="CDDAA422-D938-BB55-51BA-11A87C012BC4">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>ITEM</sourceObjSchema>
+<sourceObjName>ITEM_ID</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ITEM_LISTPRICE" id="FB45BE7B-1741-A169-4CB5-527A53016C18">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>ITEM</sourceObjSchema>
+<sourceObjName>ITEM_LISTPRICE</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ITEM_COST" id="B3722BCA-E0BE-0C33-5139-E0FDCFB6E96D">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>ITEM</sourceObjSchema>
+<sourceObjName>ITEM_COST</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ITEM_NAME" id="0D3A76A0-158C-5B07-BC2F-1973DB7D9934">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>ITEM</sourceObjSchema>
+<sourceObjName>ITEM_NAME</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ITEM_TYPE_ID" id="AFAFD5BC-0F01-87B3-D42A-D3DAD456BD48">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>ITEM</sourceObjSchema>
+<sourceObjName>ITEM_TYPE_ID</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A8554AF-4A18-DD41-93F3-8ECAF3135E10" referredColumn="1B4A9A44-1F3B-C3FC-FCBA-D8AB810F24EF"/>
+</associations>
+</Column>
+<Column name="SPEC_DOCUMENTS" id="ED9C1314-DFB4-85B5-971A-871866BB4E48">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>ITEM</sourceObjSchema>
+<sourceObjName>SPEC_DOCUMENTS</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL_QTY" id="FED9D1AF-B975-5D27-4AAF-DED6FB7D9502">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>ITEM</sourceObjSchema>
+<sourceObjName>TOTAL_QTY</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REORDER_QTY" id="491D05D9-817E-8041-5F09-EB8C6FB55E0E">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>ITEM</sourceObjSchema>
+<sourceObjName>REORDER_QTY</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E11B8EFB-396A-F592-9E30-29AEC66DE93C" name="PK_ITEM">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>PK_ITEM</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDDAA422-D938-BB55-51BA-11A87C012BC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7816666-10B3-EB84-7112-332C6A7F225C" schemaObject="624A3548-D1B7-6C36-FB99-06920EF5E511" name="PK_ITEM">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>PK_ITEM</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDDAA422-D938-BB55-51BA-11A87C012BC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A8A3AD5-84F7-80D1-1E5D-63C1251F13DE" schemaObject="624A3548-D1B7-6C36-FB99-06920EF5E511" name="FK_ITEMTYPE">
+<sourceConnName>dbst652</sourceConnName>
+<sourceObjSchema>RBRANDON87</sourceObjSchema>
+<sourceObjName>FK_ITEMTYPE</sourceObjName>
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:28 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFAFD5BC-0F01-87B3-D42A-D3DAD456BD48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77C87EA7-F3C3-8991-23F9-AC917FE661A2" name="FK_ITEMTYPE">
+<createdBy>rbrandon87</createdBy>
+<createdTime>2016-02-19 00:17:29 UTC</createdTime>
+<ownerDesignName>ERD2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFAFD5BC-0F01-87B3-D42A-D3DAD456BD48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

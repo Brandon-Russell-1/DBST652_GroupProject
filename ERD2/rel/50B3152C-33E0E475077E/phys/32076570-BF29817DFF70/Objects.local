@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="TSpace" objectID="F3CB16AB-AFFB-FD70-73BE-4CD846C3959C" name="USERS" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="User" objectID="7F48A90D-4906-7B84-D266-F70C62856E00" name="RBRANDON87" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="50809B4C-7D0B-BB2C-433A-47A34BEF058F" name="SHIPMENTDETAILS" seqName="seg_0"/>
+   <object objectType="Table" objectID="5CC02B54-9393-1CA2-2E2F-175EF25408A7" name="SHIPMENT" seqName="seg_0"/>
+   <object objectType="Table" objectID="7C3670CF-8E74-BE82-0A1E-3EC20A46BC24" name="ITEMTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="8AF3AEAF-D5EE-F770-7145-084910032E2D" name="CUSTOMERORDER" seqName="seg_0"/>
+   <object objectType="Table" objectID="8D753BC7-422A-8F57-12B3-D11B08C6060E" name="CUSTOMER" seqName="seg_0"/>
+   <object objectType="Table" objectID="A4A950BD-EACD-4295-45C2-4FFACEA37945" name="ITEM" seqName="seg_0"/>
+   <object objectType="Table" objectID="D398FB4E-C533-61BB-B8C5-2414F43653C1" name="ORDERDETAILS" seqName="seg_0"/>
+   <object objectType="Segment" objectID="D985E6D7-987C-E178-3DCE-E2D042A0376C" name="Storage1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="E5B32A73-2C7F-99B1-9B21-DC5CF44A9328" name="Storage8" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="C7AA4A31-1C5F-BAAC-0B53-72E561FD4AD3" name="UPDATEITEMQTY_TRIGGER" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="3A032FF9-FF3E-8C21-E4BF-14D960AD793D" name="UPDATESHIPMENTITEMQTY_TRIGGER" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
